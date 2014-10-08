@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Rebecca and Eason's Blogging Time..]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.reasontime.com/"/>
-  <updated>2014-10-08T07:52:05.854Z</updated>
+  <updated>2014-10-08T08:49:50.192Z</updated>
   <id>http://www.reasontime.com/</id>
   
   <author>
@@ -13,6 +13,34 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[一些更新]]></title>
+    <link href="http://www.reasontime.com/2014/10/08/20141008_some_updates/"/>
+    <id>http://www.reasontime.com/2014/10/08/20141008_some_updates/</id>
+    <published>2014-10-07T16:00:00.000Z</published>
+    <updated>2014-10-08T08:48:47.000Z</updated>
+    <content type="html"><![CDATA[<p>添加了多说评论。</p>
+<p>添加了author变量，每篇文章可以指定不同的author。方法如下-</p>
+<ul>
+<li>在layout_partial\post中增加了author.ejs</li>
+<li>在scaffolds\post.md中增加”author:”</li>
+<li>在layout_partial\article.ejs和page-heading.ejs中作相应的设置</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>添加了多说评论。</p>
+<p>添加了author变量，每篇文章可以指定不同的author。方法如下-</p>
+<ul>
+<li>在layout_partial\post中增加了author.ejs</li>
+<li>在scaffolds\post.md中增加”author]]>
+    </summary>
+    
+      <category term="维护，hexo" scheme="http://www.reasontime.com/tags/%E7%BB%B4%E6%8A%A4%EF%BC%8Chexo/"/>
+    
+      <category term="网站维护" scheme="http://www.reasontime.com/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[REasonTime Starts Here!]]></title>
