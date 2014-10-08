@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[REason Time]]></title>
+  <subtitle><![CDATA[Rebecca and Eason's Blogging Time..]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://www.reasontime.com/"/>
+  <updated>2014-10-08T07:52:05.854Z</updated>
+  <id>http://www.reasontime.com/</id>
+  
+  <author>
+    <name><![CDATA[Rebecca]]></name>
+    <email><![CDATA[yszhao2008@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[REasonTime Starts Here!]]></title>
+    <link href="http://www.reasontime.com/2014/09/29/20140929_REasonTimeStartHere/"/>
+    <id>http://www.reasontime.com/2014/09/29/20140929_REasonTimeStartHere/</id>
+    <published>2014-09-28T16:00:00.000Z</published>
+    <updated>2014-10-08T07:39:30.000Z</updated>
+    <content type="html"><![CDATA[<p>REasonTime初步搭建完成，感谢<a href="http://cnfeat.com/" target="_blank" rel="external">cnfeat</a>提供的详细攻略。</p>
+<p>尽管中间遇到了防火墙设置，GFW导致的一系列莫名错误。总的说来还算顺利！拜谢<a href="http://hexo.io/" target="_blank" rel="external">HEXO</a>。</p>
+<p>一些细节还需慢慢调整。REason的记录将从这里开始..</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>REasonTime初步搭建完成，感谢<a href="http://cnfeat.com/" target="_blank" rel="external">cnfeat</a>提供的详细攻略。</p>
+<p>尽管中间遇到了防火墙设置，GFW导致的一系列莫名错误。总的说来还]]>
+    </summary>
+    
+      <category term="维护，hexo" scheme="http://www.reasontime.com/tags/%E7%BB%B4%E6%8A%A4%EF%BC%8Chexo/"/>
+    
+      <category term="网站维护" scheme="http://www.reasontime.com/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/"/>
+    
+  </entry>
+  
+</feed>
