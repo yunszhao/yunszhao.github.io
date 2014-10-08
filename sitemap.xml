@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.reasontime.com/about/index.html</loc>
+    <lastmod>2014-10-08T09:35:24.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.reasontime.com/2014/10/08/20141008_some_updates/</loc>
     <lastmod>2014-10-08T08:57:59.000Z</lastmod>
   </url>
@@ -9,11 +14,6 @@
   <url>
     <loc>http://www.reasontime.com/2014/09/29/20140929_REasonTimeStartHere/</loc>
     <lastmod>2014-10-08T08:57:16.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.reasontime.com/about/index.html</loc>
-    <lastmod>2014-10-08T08:52:50.000Z</lastmod>
   </url>
   
 </urlset>
