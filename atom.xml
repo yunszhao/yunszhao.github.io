@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[REason Time]]></title>
-  <subtitle><![CDATA[Rebecca and Eason's Blogging Time..]]></subtitle>
+  <subtitle><![CDATA[Stay hungry. Stay foolish.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.reasontime.com/"/>
-  <updated>2014-10-10T01:51:02.816Z</updated>
+  <updated>2014-10-10T02:17:34.108Z</updated>
   <id>http://www.reasontime.com/</id>
   
   <author>
     <name><![CDATA[Rebecca & Eason]]></name>
-    <email><![CDATA[yszhao2008@gmail.com]]></email>
+    <email><![CDATA[reasontime2014@gmail.com]]></email>
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
