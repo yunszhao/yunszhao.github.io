@@ -1,10 +1,10 @@
 * {
-  margin: 0;
+  margin: 1;
   padding: 0;
 }
 body {
   color: #444;
-  font-family: 'Open Sans', Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-serif;
+  font-family: "PT Serif", "Microsoft Yahei";
   font-size: 16px;
   height: 100%;
 }
@@ -20,16 +20,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-serif;
+  font-family: "PT Serif", "Microsoft Yahei";
 }
 h1 {
-  font-size: 1.8em;
+  font-size: 2em;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 h3 {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 .transition {
   -webkit-transition: opacity 0.2s;
@@ -103,7 +103,7 @@ a:hover {
 }
 #header {
   text-shadow: 0 0 1px #fff;
-  margin: 50px auto;
+  margin: 10px auto;
 }
 @media screen and (max-width: 992px) {
   #header {
@@ -135,7 +135,7 @@ a:hover {
   }
 }
 #header .alignleft h1 a {
-  font-family: 'Playball', cursive, "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-serif;
+  font-family: "PT Serif", "Microsoft Yahei";
 }
 #header .alignleft h1 a:hover {
   color: #009cdc;
@@ -152,10 +152,10 @@ a:hover {
   margin-top: 10px;
 }
 #header .alignleft h2 a {
-  font-family: 'Playball', cursive, "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-serif;
+  font-family: "PT Serif", "Microsoft Yahei";
 }
 #header #main-nav {
-  font-family: 'Open Sans', Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-serif;
+  font-family: "PT Serif", "Microsoft Yahei";
   padding-top: 10px;
   letter-spacing: 1px;
 }
@@ -324,15 +324,15 @@ a:hover {
 #page-heading-wrap {
   text-align: left;
   line-height: 1.4em;
-  padding: 35px 0;
+  padding: 5px 0;
   background: #f9f9f9;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
 }
 @media screen and (max-width: 768px) {
   #page-heading-wrap {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
   }
 }
 #page-heading-wrap .inner {
@@ -567,7 +567,7 @@ article .entry blockquote {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   font-style: italic;
-  font-family: "Georgia", serif;
+  font-family: "PT Serif";
   font-size: 1.2em;
   padding: 0 30px 15px;
   text-align: center;
@@ -586,7 +586,7 @@ article .entry blockquote footer cite:before {
 }
 article .entry code,
 article .entry pre {
-  font-family: Monaco, Menlo, Consolas, Courier New, monospace;
+  font-family: "PT Serif", "Microsoft Yahei";
 }
 article .entry code {
   background: #eee;
@@ -646,7 +646,7 @@ article .entry h6 {
 }
 article .entry img,
 article .entry video {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   border: none;
 }
@@ -897,7 +897,7 @@ article footer .article-nav .article-next {
   margin-bottom: 30px;
 }
 #sidebar .search input {
-  font-family: 'Open Sans', Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-serif;
+  font-family: "PT Serif", "Microsoft Yahei";
   background: #fff;
   font-style: italic;
   font-size: 1em;
@@ -980,7 +980,7 @@ article footer .article-nav .article-next {
 }
 #footer .alignleft {
   padding-top: 22px;
-  font-family: 'Playball', cursive, "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-serif;
+  font-family: "PT Serif", "Microsoft Yahei";
 }
 #footer .alignright {
   padding: 15px 0;
@@ -1037,7 +1037,7 @@ article footer .article-nav .article-next {
 }
 .entry .gist .gist-file .gist-data pre {
   padding: 0 !important;
-  font-family: Monaco, Menlo, Consolas, Courier New, monospace;
+  font-family: "PT Serif", "Microsoft Yahei";
 }
 .entry .gist .gist-file .gist-meta {
   background: none;

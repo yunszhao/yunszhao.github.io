@@ -124,7 +124,7 @@ body{ -webkit-animation: bugfix infinite 1s; }
           <div class="icon"></div>
             
     
-      <h1 class="title transition"><a href="/2014/10/08/20141008_some_updates/">一些更新</a></h1>
+      <h1 class="title transition"><a href="/2014/10/08/20141008_maintainence/">网站维护日志</a></h1>
     
   
           <ul>
@@ -146,7 +146,7 @@ body{ -webkit-animation: bugfix infinite 1s; }
               <span class="heading-span">With: </span>
               
 
-                <a href="/2014/10/08/20141008_some_updates/#ds-thread"><span class="ds-thread-count" data-thread-key="2014/10/08/20141008_some_updates/" data-count-type="comments"></span></a>
+                <a href="/2014/10/08/20141008_maintainence/#ds-thread"><span class="ds-thread-count" data-thread-key="2014/10/08/20141008_maintainence/" data-count-type="comments"></span></a>
               
           </ul>
         </header>
@@ -154,19 +154,30 @@ body{ -webkit-animation: bugfix infinite 1s; }
       <div class="entry">
         
           
-            添加了多说评论。
+            2014-10-08
+添加了多说评论。
 添加了author变量，每篇文章可以指定不同的author。方法如下-
 
 在layout_partial\post中增加了author.ejs
 在scaffolds\post.md中增加”author:”
 在layout_partial\article.ejs和page-heading.ejs中作相应的设置
+
+2014-10-15
+修改了全局字体：参考vkki.me将source\css\_base\variable.styl中font相关变量进行了修改。
+修改了段间距：将source\css\_base\layout.styl中的margin变量设置为1
+修改了最大图片尺寸：将source\css\_partial\article.styl中img max-width设为70%
+修改了一些页面布局
+
+header.styl--&amp;gt;page-heading-wrap--&amp;gt;margin-bottom改为5
+header.styl--&amp;gt;page-heading-wrap--&amp;gt;padding改为5
+header.styl--&amp;gt;header--&amp;gt;margin改为10px
           
         
       </div>
       <footer>
         
           <div class="alignright">
-            <a href="/2014/10/08/20141008_some_updates/#more" class="more-link">继续阅读<i class="fa fa-long-arrow-right fa-1"></i></a>
+            <a href="/2014/10/08/20141008_maintainence/#more" class="more-link">继续阅读<i class="fa fa-long-arrow-right fa-1"></i></a>
           </div>
         
         <div class="clearfix"></div>
@@ -256,7 +267,15 @@ body{ -webkit-animation: bugfix infinite 1s; }
   <ul class="entry">
     
       <li>
-        <a href="/2014/10/08/20141008_some_updates/">一些更新</a>
+        <a href="/2014/10/14/20141014_data_analysis_1/">数据分析杂谈(1)：Git是一种态度</a>
+      </li>
+    
+      <li>
+        <a href="/2014/10/12/20141012_catoon_book_1/">宝宝绘本挑选小记 (1)</a>
+      </li>
+    
+      <li>
+        <a href="/2014/10/08/20141008_maintainence/">网站维护日志</a>
       </li>
     
       <li>
@@ -272,6 +291,10 @@ body{ -webkit-animation: bugfix infinite 1s; }
   <h3 class="title">分类</h3>
   <ul class="entry">
   
+    <li><a href="/categories/数据分析/">数据分析</a><small>1</small></li>
+  
+    <li><a href="/categories/绘本/">绘本</a><small>1</small></li>
+  
     <li><a href="/categories/网站维护/">网站维护</a><small>2</small></li>
   
   </ul>
@@ -282,7 +305,13 @@ body{ -webkit-animation: bugfix infinite 1s; }
 <div class="widget tag">
   <h3 class="title">标签</h3>
   
+    <a href="/tags/Git/">Git<small>1</small></a>
+  
     <a href="/tags/hexo/">hexo<small>2</small></a>
+  
+    <a href="/tags/数据分析/">数据分析<small>1</small></a>
+  
+    <a href="/tags/绘本/">绘本<small>1</small></a>
   
     <a href="/tags/维护/">维护<small>2</small></a>
   

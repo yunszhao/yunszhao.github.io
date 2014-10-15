@@ -5,17 +5,13 @@
 <head>
   <meta charset="utf-8">
   
-  <title>REasonTime Starts Here! | REason Time</title>
+  <title>数据分析 | REason Time</title>
   <meta name="author" content="Rebecca &amp; Eason">
-  
-  <meta name="description" content="REasonTime初步搭建完成，感谢cnfeat提供的详细攻略。
-尽管中间遇到了防火墙设置，GFW导致的一系列莫名错误。总的说来还算顺利！拜谢HEXO。
-一些细节还需慢慢调整。REason的记录将从这里开始..">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="REasonTime Starts Here!"/>
+  
   <meta property="og:site_name" content="REason Time"/>
 
   
@@ -107,11 +103,34 @@ body{ -webkit-animation: bugfix infinite 1s; }
   	<div class="inner">
       <div class="padding">
     		
-          <h1>REasonTime Starts Here!</h1>
+          <h2>Stay hungry... Stay foolish...</h2>
+        
+      </div>
+  	</div>
+  </div>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper" class="padding">
+<h2 class="archive-title tag">数据分析</h2>
+
+
+  
+    <article class="post">
+  
+  
+    <div class="post-content-index">
+  
+      
+        <header>
+          <div class="icon"></div>
+            
+    
+      <h1 class="title transition"><a href="/2014/10/14/20141014_data_analysis_1/">数据分析杂谈(1)：Git是一种态度</a></h1>
+    
+  
           <ul>
             <li>
               <span class="heading-span">Posted on: </span>
-              <time datetime="2014-09-28T16:00:00.000Z">2014-09-29</time>
+              <time datetime="2014-10-13T16:00:00.000Z">2014-10-14</time>
             </li>
             
               <li>
@@ -127,95 +146,31 @@ body{ -webkit-animation: bugfix infinite 1s; }
               <span class="heading-span">With: </span>
               
 
-                <a href="#ds-thread"><span class="ds-thread-count" data-thread-key="2014/09/29/20140929_REasonTimeStartHere/" data-count-type="comments"></span></a>
+                <a href="/2014/10/14/20141014_data_analysis_1/#ds-thread"><span class="ds-thread-count" data-thread-key="2014/10/14/20141014_data_analysis_1/" data-count-type="comments"></span></a>
               
-            </li>
           </ul>
-        
-      </div>
-  	</div>
-  </div>
-  <div id="content" class="inner">
-    <div id="main-col" class="alignleft"><div id="wrapper" class="padding"><article class="post">
-  
-  
-    <div class="post-content">
-  
+        </header>
       
       <div class="entry">
         
-          <p>REasonTime初步搭建完成，感谢<a href="http://cnfeat.com/" target="_blank" rel="external">cnfeat</a>提供的详细攻略。</p>
-<p>尽管中间遇到了防火墙设置，GFW导致的一系列莫名错误。总的说来还算顺利！拜谢<a href="http://hexo.io/" target="_blank" rel="external">HEXO</a>。</p>
-<p>一些细节还需慢慢调整。REason的记录将从这里开始..</p>
-
+          
+            前言
+最近在看Coursera上由John Hopkins提供的Data Science系列课程。很基础的内容，但覆盖十分全面，观摩之后颇受启发。从事数据分析这个行业已有不短时间，亦想借这个机会作一些总结，提高，于是开始写这个“数据分析杂谈”系列。大致整理了一个提纲，在逻辑体系上与“Data Science系列”类似，但希望能写出一些自己的感受。下面是第一篇，数据分析从文档管理开始…  
+正文
+1. 场景一二
+场景一：“这次的数字比上次高出很多，能不能检查一下？”。同事的语气极尽亲和，但自己的分析受到质疑，心里还是不免紧张。赶快捣鼓进项目文件夹中，试图找到上次分析的相关程序和文档，以进行验证。尽管文档已经进行了详细的日期及版本标注，配合Outlook中的一些通信记录，耗时良久之后，才勉强找到了当时分析所使用的文档。“哦，这次的分析需求和上次略有不同，在一个关键假设上存在差异，所用的样本也因此不尽相同…”。回答了问题，但是翻查大量文件的副作用就是——大脑一片混乱。  
+场景二：“依照你提供的程序，已经把分析报告做好了。有空帮忙检查一下。”同事眨眨干涩的眼睛，神色虽然疲惫，但是眼角依然浮出一丝轻松——完成一个紧急需求之后的典型特征。“我提供的程序？”疑惑道。“对啊，就在项目的公共文件夹里。”好不容易浮出的轻松过渡为一分莫名的紧张…“哦，那个程序我更改过，还没来得及更新到公共文件夹..”。紧张变为愤怒…  
+2. 祸与惑
+都是版本控制惹的祸！  
+在工作中，多数分析任务都不是一蹴而成的。不管是对分析需求的理解，还是对分析方法的探索、分析结果的求证，往往都是一个不断迭代的过程。于是，在分析中往往存在许多不同版本的结果，以及与之对应的各种程序代码。将这些代码和结果进行清晰的管理是对数据分析员的一个基本要求。常说数据科学是计算机学，统计学与具体业务的结合（下图），这更多强调的是知识层面
+          
         
       </div>
       <footer>
         
-          
-  
-  <div class="categories">
-    <a href="/categories/网站维护/">网站维护</a>
-  </div>
-
-          
-  
-  <div class="tags">
-    <a href="/tags/维护/">维护</a>, <a href="/tags/hexo/">hexo</a>
-  </div>
-
-          <div class="share">
-  
-
-    
-      <!-- JiaThis Button BEGIN -->
-      <div class="jiathis_style_24x24">
-        <a class="jiathis_button_qzone"></a>
-        <a class="jiathis_button_tsina"></a>
-        <a class="jiathis_button_tqq"></a>
-        <a class="jiathis_button_weixin"></a>
-        <a class="jiathis_button_renren"></a>
-        <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-        <a class="jiathis_counter_style"></a>
-        </div>
-        <script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
-        <!-- JiaThis Button END -->
-    
-
-    
-      <div class="g-plusone"></div>
-
-      <script type="text/javascript">
-        window.___gcfg = {lang: 'en-GB'};
-
-        (function() {
-          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-          po.src = 'https://apis.google.com/js/platform.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-        })();
-      </script>
-    
-
-    
-      <a href="https://twitter.com/share" class="twitter-share-button" data-via="halfer53">Tweet</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-    
-  
-</div>
-          
-<nav class="article-nav clearfix">
- 
- <div class="article-prev" >
- <a href="/2014/10/08/20141008_maintainence/" title="网站维护日志">
-  <i class="fa fa-long-arrow-left"></i>
-  <span>
-  网站维护日志</span>
-</a>
-</div>
-
-
-</nav>
-
+          <div class="alignright">
+            <a href="/2014/10/14/20141014_data_analysis_1/#more" class="more-link">继续阅读<i class="fa fa-long-arrow-right fa-1"></i></a>
+          </div>
         
         <div class="clearfix"></div>
       </footer>
@@ -223,32 +178,19 @@ body{ -webkit-animation: bugfix infinite 1s; }
 </article>
 
 
-<section id="comment">
-  <h2 class="title">留言</h2>
 
   
 
-     <!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="2014/09/29/20140929_REasonTimeStartHere/" data-title="REasonTime Starts Here!" data-url="http://www.reasontime.com2014/09/29/20140929_REasonTimeStartHere/"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"reasontime"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-<!-- 多说公共JS代码 end -->
-
+  <nav id="pagination">
   
-</section>
+  
+  <div class="clearfix"></div>
+</nav>
 
-</div></div>
+
+
+
+   </div></div>
     <aside id="sidebar" class="alignright"><div class="padding">
 	
 	  

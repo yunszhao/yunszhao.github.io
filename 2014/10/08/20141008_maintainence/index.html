@@ -5,20 +5,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>一些更新 | REason Time</title>
+  <title>网站维护日志 | REason Time</title>
   <meta name="author" content="Rebecca &amp; Eason">
   
-  <meta name="description" content="添加了多说评论。
+  <meta name="description" content="2014-10-08
+添加了多说评论。
 添加了author变量，每篇文章可以指定不同的author。方法如下-
 
 在layout_partial\post中增加了author.ejs
 在scaffolds\post.md中增加”author:”
-在layout_partial\article.ejs和page-headi">
+在layout_partial\article.ejs">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="一些更新"/>
+  <meta property="og:title" content="网站维护日志"/>
   <meta property="og:site_name" content="REason Time"/>
 
   
@@ -110,7 +111,7 @@ body{ -webkit-animation: bugfix infinite 1s; }
   	<div class="inner">
       <div class="padding">
     		
-          <h1>一些更新</h1>
+          <h1>网站维护日志</h1>
           <ul>
             <li>
               <span class="heading-span">Posted on: </span>
@@ -130,7 +131,7 @@ body{ -webkit-animation: bugfix infinite 1s; }
               <span class="heading-span">With: </span>
               
 
-                <a href="#ds-thread"><span class="ds-thread-count" data-thread-key="2014/10/08/20141008_some_updates/" data-count-type="comments"></span></a>
+                <a href="#ds-thread"><span class="ds-thread-count" data-thread-key="2014/10/08/20141008_maintainence/" data-count-type="comments"></span></a>
               
             </li>
           </ul>
@@ -147,12 +148,23 @@ body{ -webkit-animation: bugfix infinite 1s; }
       
       <div class="entry">
         
-          <p>添加了多说评论。</p>
+          <h3 id="2014-10-08">2014-10-08</h3>
+<p>添加了多说评论。</p>
 <p>添加了author变量，每篇文章可以指定不同的author。方法如下-</p>
 <ul>
 <li>在layout_partial\post中增加了author.ejs</li>
 <li>在scaffolds\post.md中增加”author:”</li>
 <li>在layout_partial\article.ejs和page-heading.ejs中作相应的设置</li>
+</ul>
+<h3 id="2014-10-15">2014-10-15</h3>
+<p>修改了全局字体：参考<a href="http://vkki.me/2014/02/04/beautify-your-hexo/" target="_blank" rel="external">vkki.me</a>将<code>source\css\_base\variable.styl</code>中font相关变量进行了修改。</p>
+<p>修改了段间距：将<code>source\css\_base\layout.styl</code>中的<code>margin</code>变量设置为1</p>
+<p>修改了最大图片尺寸：将<code>source\css\_partial\article.styl</code>中<code>img max-width</code>设为70%</p>
+<p>修改了一些页面布局</p>
+<ul>
+<li><code>header.styl--&gt;page-heading-wrap--&gt;margin-bottom</code>改为5</li>
+<li><code>header.styl--&gt;page-heading-wrap--&gt;padding</code>改为5</li>
+<li><code>header.styl--&gt;header--&gt;margin</code>改为10px</li>
 </ul>
 
         
@@ -212,6 +224,14 @@ body{ -webkit-animation: bugfix infinite 1s; }
           
 <nav class="article-nav clearfix">
  
+ <div class="article-prev" >
+ <a href="/2014/10/12/20141012_catoon_book_1/" title="宝宝绘本挑选小记 (1)">
+  <i class="fa fa-long-arrow-left"></i>
+  <span>
+  宝宝绘本挑选小记 (1)</span>
+</a>
+</div>
+
 
 <div class="article-next">
 <a href="/2014/09/29/20140929_REasonTimeStartHere/"  title="REasonTime Starts Here!">
@@ -236,7 +256,7 @@ body{ -webkit-animation: bugfix infinite 1s; }
   
 
      <!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="2014/10/08/20141008_some_updates/" data-title="一些更新" data-url="http://www.reasontime.com2014/10/08/20141008_some_updates/"></div>
+	<div class="ds-thread" data-thread-key="2014/10/08/20141008_maintainence/" data-title="网站维护日志" data-url="http://www.reasontime.com2014/10/08/20141008_maintainence/"></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
@@ -264,7 +284,15 @@ var duoshuoQuery = {short_name:"reasontime"};
   <ul class="entry">
     
       <li>
-        <a href="/2014/10/08/20141008_some_updates/">一些更新</a>
+        <a href="/2014/10/14/20141014_data_analysis_1/">数据分析杂谈(1)：Git是一种态度</a>
+      </li>
+    
+      <li>
+        <a href="/2014/10/12/20141012_catoon_book_1/">宝宝绘本挑选小记 (1)</a>
+      </li>
+    
+      <li>
+        <a href="/2014/10/08/20141008_maintainence/">网站维护日志</a>
       </li>
     
       <li>
@@ -280,6 +308,10 @@ var duoshuoQuery = {short_name:"reasontime"};
   <h3 class="title">分类</h3>
   <ul class="entry">
   
+    <li><a href="/categories/数据分析/">数据分析</a><small>1</small></li>
+  
+    <li><a href="/categories/绘本/">绘本</a><small>1</small></li>
+  
     <li><a href="/categories/网站维护/">网站维护</a><small>2</small></li>
   
   </ul>
@@ -290,7 +322,13 @@ var duoshuoQuery = {short_name:"reasontime"};
 <div class="widget tag">
   <h3 class="title">标签</h3>
   
+    <a href="/tags/Git/">Git<small>1</small></a>
+  
     <a href="/tags/hexo/">hexo<small>2</small></a>
+  
+    <a href="/tags/数据分析/">数据分析<small>1</small></a>
+  
+    <a href="/tags/绘本/">绘本<small>1</small></a>
   
     <a href="/tags/维护/">维护<small>2</small></a>
   
